@@ -1,0 +1,200 @@
+:root {
+    --fs-6: 6.29px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-39: 39.42px;
+    --fs-50: 50px;
+    --fs-62: 62px;
+    /* -----font-wieght------ */
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    /* -------line-height-------- */
+    --lh-18: 18px;
+    --lh-19: 19px;
+    --lh-22: 22px;
+    --lh-24: 24px;
+    --lh-30: 30px;
+    --lh-31: 31.36px;
+    --lh-45: 45.15px;
+    --lh-66: 66px;
+}
+
+.fs-6 {
+    font-size: var(--fs-6);
+}
+
+.fs-12 {
+    font-size: var(--fs-12);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-16 {
+    font-size: var(--fs-16);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-20 {
+    font-size: var(--fs-20);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-39 {
+    font-size: var(--fs-39);
+}
+
+.fs-50 {
+    font-size: var(--fs-50)
+}
+
+.fs-62 {
+    font-size: var(--fs-62);
+}
+
+/* -----font-wieght------ */
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+/* -------line-height-------- */
+.lh-18 {
+    line-height: var(--lh-18);
+}
+
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-22 {
+    line-height: var(--lh-22);
+}
+
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
+.lh-30 {
+    line-height: var(--lh-30);
+}
+
+.lh-31 {
+    line-height: var(--lh-31);
+}
+
+.lh-45 {
+    line-height: var(--lh-45);
+}
+
+.lh-66 {
+    line-height: var(--lh-66);
+}
+
+/* ==================== */
+@media screen and (min-width: 768px) {
+    .fs-12 {
+        font-size: 14px;
+    }
+
+    .fs-14 {
+        font-size: 16px;
+    }
+
+    .fs-16 {
+        font-size: 18px;
+    }
+
+    .fs-18 {
+        font-size: 20px;
+    }
+
+    .fs-20 {
+        font-size: 22px;
+    }
+
+    .fs-22 {
+        font-size: 24px;
+    }
+
+    .fs-39 {
+        font-size: 39.42px;
+    }
+
+    .fs-62 {
+        font-size: 62px;
+    }
+
+    /* -----font-wieght------ */
+
+    .fw-500 {
+        font-weight: 500;
+    }
+
+    .fw-600 {
+        font-weight: 600;
+    }
+
+    .fw-700 {
+        font-weight: 700;
+    }
+
+    /* -------line-height-------- */
+    .lh-18 {
+        line-height: 19px;
+    }
+
+    .lh-19 {
+        line-height: 22px;
+    }
+
+    .lh-22 {
+        line-height: 24px;
+    }
+
+    .lh-24 {
+        line-height: 30px;
+    }
+
+    .lh-30 {
+        line-height: 31.36px;
+    }
+
+    .lh-31 {
+        line-height: 45.15px;
+    }
+
+    .lh-45 {
+        line-height: 45.15px;
+    }
+
+    .lh-66 {
+        line-height: 66px;
+    }
+
+}
