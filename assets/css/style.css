@@ -296,13 +296,18 @@
     .flex-coloumn-xl {
         flex-direction: column;
     }
-
+/* .flex-reverse{
+    flex-direction: column-reverse;
+} */
     .gap-104 {
         gap: 58px;
     }
 
     .mt-32 {
         margin-top: 32px;
+    }
+    .pt-lg-52{
+        padding-top: 52px;
     }
 }
 
