@@ -87,7 +87,6 @@
     background: #F3F5FF38;
     backdrop-filter: blur(38.790000915527344px);
     text-align: center;
-    z-index: 2;
 }
 
 .ratio-box {
@@ -105,7 +104,9 @@
 
 .Forecasted-box {
     max-width: 180px;
-    padding: 12px;
+    /* padding: 12px; */
+    padding-left: 34px;
+    padding-right: 34px;
     gap: 12px;
     border-radius: 12px;
     opacity: 0px;
@@ -168,7 +169,7 @@
     backdrop-filter: blur(28.787826538085938px);
     position: absolute;
     top: 25%;
-    left: 0%;
+    left: -10%;
 }
 
 .my-120 {
@@ -225,6 +226,129 @@
 }
 
 /* ==================footer===================== */
-.mx-163{
+.mx-163 {
     max-width: 163px;
 }
+
+.h-161 {
+    height: 161px;
+}
+
+.ml-100 {
+    margin-left: 100px;
+}
+
+.ml-274 {
+    margin-left: 274px;
+}
+
+.accordian-para {
+    border-bottom: 2px solid #DDDDDF;
+}
+
+.text-dark-grey {
+    color: #76767F;
+}
+
+.pr-77 {
+    padding-right: 77px;
+}
+
+.gap-36 {
+    gap: 36px;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.courser-pointer {
+    cursor: pointer;
+}
+
+@media (max-width:992px) {
+    .ml-274 {
+        margin-left: 0;
+    }
+
+
+
+    .flex-coloumn-xl {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px) {
+    .ml-274 {
+        margin-left: 0;
+    }
+
+    .flex-coloumn-md {
+        fle
+    }
+
+    .flex-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .text-md-center {
+        text-align: center;
+    }
+
+    .Apply-btn {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+
+    .sales-box {
+        display: none;
+    }
+
+    .revenue-box {
+        position: absolute;
+        top: -22%;
+        left: 0;
+    }
+
+    .Forecasted-box {
+        display: none;
+    }
+
+    .mt-200 {
+        margin-top: 200px;
+    }
+
+    .ml-155 {
+        margin-left: 155px;
+    }
+
+    .ml-146 {
+        margin-left: 146px;
+    }
+
+    .Upcoming-box {
+        position: absolute;
+        top: 0;
+    }
+
+    .ml-114 {
+        margin-left: 114px;
+    }
+
+    .ml-100 {
+        margin-left: 0;
+    }
+
+    .one-svg {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media (max-width:320px) {}
