@@ -23,6 +23,14 @@
     max-width: 478px;
 }
 
+.max-480{
+    max-width: 480px;
+}
+
+.min-560{
+    min-height: 560px;
+}
+
 .mx-450 {
     max-width: 450px;
 }
@@ -62,7 +70,7 @@
     line-height: 24px;
     text-align: center;
     border: none;
-    padding: 12px 44px 12px 44px;
+    padding: 9px 43px 9px 43px;
     gap: 8px;
     border-radius: 24px;
     opacity: 0px;
@@ -241,6 +249,14 @@
     margin-left: 100px;
 }
 
+.max-944{
+    max-width: 944px;
+}
+
+.gap-100{
+    gap: 100px;
+}
+
 .ml-274 {
     margin-left: 274px;
 }
@@ -265,6 +281,9 @@
     padding-left: 5px;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
 .courser-pointer {
     cursor: pointer;
 }
@@ -307,6 +326,7 @@
         margin: auto;
         margin-top: 20px;
         margin-bottom: 100px;
+        
     }
 
     .sales-box {
